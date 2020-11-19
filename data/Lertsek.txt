@@ -1,5 +1,5 @@
 ship "Lertsek"
-	sprite "ship/lertsek"
+	sprite "ship/lertsek_sprite"
 	thumbnail "thumbnail/lertsek_thumb"
 	attributes
 		category "Heavy Warship"
@@ -118,3 +118,21 @@ event "kestrel available: more shields"
 #		"Lertsek (More Shields)"
 #		"Lertsek (More Engines)"
 #		"Lertsek (More Weapons)"
+
+outfitter TheronEpic
+	"Lertsek"
+	"Lertsek (More Shields)"
+	"Lertsek (More Engines)"
+	"Lertsek (More Weapons)"
+	
+outfitter human
+	"Lertsek"
+	"Lertsek (More Shields)"
+	"Lertsek (More Engines)"
+	"Lertsek (More Weapons)"
+
+outfitter "human plugins"
+	"Lertsek"
+	"Lertsek (More Shields)"
+	"Lertsek (More Engines)"
+	"Lertsek (More Weapons)"
